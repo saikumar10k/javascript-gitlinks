@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* #kk{
+            width:20%;
+            height: 30px;
+            background-color: black;
+
+        } */
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>25</button>
+    <button>50</BUtton>
+    <button>75</button>
+    <button>100</button>
+    <script>
+        var sai=document.getElementsByTagName("button")
+            sai[0].addEventListener("click",one1)
+            sai[1].addEventListener("click",two)
+             sai[2].addEventListener("click",three)
+             sai[3].addEventListener("click",four)
+             
+            var ss=document.createElement("div")
+              document.body.appendChild(ss)
+              ss.style.backgroundColor="blue"
+            
+             function one1(){
+              
+
+                 document.body.appendChild(ss)
+                ss.style.width="25%"
+                ss.style.height="30px"
+                ss.style.backgroundcolor="blue"
+             }
+              function two(){
+                document.body.appendChild(ss)
+                ss.style.width="50%"
+                ss.style.height="30px"
+                ss.style.backgroundcolor="blue"
+             }
+             function three(){
+                document.body.appendChild(ss)
+                ss.style.width="75%"
+                ss.style.height="30px"
+                ss.style.backgroundcolor="yellow"
+             }
+             function four(){
+                document.body.appendChild(ss)
+                ss.style.width="100%"
+                ss.style.height="30px"
+                ss.style.backgroundcolor="blue"
+             }
+
+    </script>
+</body>
+</html>
